@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#progressBarContainer {
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+  background: rgb(237, 237, 237);
+}
+
+#progressBar {
+  width: 0%;
+  height: 40px;
+  border-radius: 5px;
+  background: dodgerblue;
+}
+
+#progressBar.complete {
+  width: 100%;
+}
+
+#runButton {
+  margin-top: 10px;
+  cursor: pointer;
+}

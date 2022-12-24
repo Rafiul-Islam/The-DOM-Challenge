@@ -1,4 +1,6 @@
-### Challenge 5: Progress Bar
+### Challenge 2: Progress Bar
+
+**Playground:** [CodePen](https://codepen.io/rafiulislamrafi/pen/dyjYMWR)
 
 Create a progress bar using HTML, CSS and Vanilla Javascript.
 

@@ -20,7 +20,7 @@ Design a calendar application where you can view current month, days , previous 
 
 > Default state
 
-![](./images/1.png)
+![](./images/1.PNG)
 
 
 > Demo

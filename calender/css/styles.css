@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.calender-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.calender-table th,
+.calender-table td {
+  padding: 0.5rem 01rem;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.calender-table td.today {
+  background: rgb(227, 227, 227);
+  color: black;
+  font-size: 700;
+}
+
+.btn-section {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-prev {
+  background: tomato;
+  color: #fff;
+}
+
+.btn-next {
+  background: dodgerblue;
+  color: #fff;
+}
